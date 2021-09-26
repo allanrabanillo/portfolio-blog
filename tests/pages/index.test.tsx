@@ -9,7 +9,7 @@ describe('App', () => {
   it('renders without crashing', () => {
     render(<App />)
     expect(
-      screen.getByRole('heading', { name: 'Batteries Included Next.js' })
+      screen.getByRole('heading', { name: 'Allan Rabanillo' })
     ).toBeInTheDocument()
   })
 })
